@@ -26,7 +26,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v43.0.16
         with:
-          configurationFile: example/renovate-config.js
+          configurationFile: .github/renovate-global.js
           token: "${{ steps.get_token.outputs.token }}"
         env:
           RENOVATE_PLATFORM_COMMIT: "true"
