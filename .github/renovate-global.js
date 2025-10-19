@@ -3,5 +3,6 @@ module.exports = {
     globalExtends: [
         'config:best-practices'
     ],
-    repositories: []
+    repositories: [],
+    platformCommit: 'enabled'
 }
