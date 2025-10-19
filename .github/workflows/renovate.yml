@@ -21,10 +21,10 @@ jobs:
           app-id: ${{ secrets.RENOVATE_APP_ID }}
 
       - name: Checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v43.0.16
+        uses: renovatebot/github-action@e2421a9a80287bba9997b41a15ea1e5585d96925 # v43.0.16
         with:
           configurationFile: .github/renovate-global.js
           token: "${{ steps.get_token.outputs.token }}"
