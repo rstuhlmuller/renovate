@@ -4,5 +4,6 @@ module.exports = {
         'config:best-practices'
     ],
     repositories: [],
-    platformCommit: 'enabled'
+    platformCommit: 'enabled',
+    autodiscover: true
 }
