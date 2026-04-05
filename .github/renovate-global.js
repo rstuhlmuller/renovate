@@ -2,8 +2,9 @@ module.exports = {
   platform: "github",
   globalExtends: [
     "config:best-practices",
-    ":automergeBranch",
+    ":automergeAll",
     "schedule:automergeDaily",
+    "security:openssf-scorecard"
   ],
   platformCommit: "enabled",
   autodiscover: true,
