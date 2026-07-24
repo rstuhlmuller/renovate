@@ -3,6 +3,7 @@ module.exports = {
   globalExtends: [
     "config:best-practices",
     ":automergeAll",
+    "replacements:all",
     "schedule:automergeDaily",
     "security:openssf-scorecard"
   ],
