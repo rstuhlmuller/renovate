@@ -13,6 +13,7 @@ module.exports = {
   onboarding: false,
   requireConfig: "optional",
   labels: ["dependencies"],
+  ignoreDeps: ["bridgecrewio/checkov-action"],
   lockFileMaintenance: {
     enabled: true,
   },
