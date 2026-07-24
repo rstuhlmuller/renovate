@@ -15,7 +15,6 @@ module.exports = {
   labels: ["dependencies"],
   lockFileMaintenance: {
     enabled: true,
-    schedule: ["before 4am"],
   },
   vulnerabilityAlerts: {
     enabled: true,
