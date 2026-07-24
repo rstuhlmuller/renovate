@@ -7,7 +7,7 @@ module.exports = {
     "schedule:automergeDaily",
     "security:openssf-scorecard"
   ],
-  platformCommit: true,
+  platformCommit: "enabled",
   rebaseWhen: "conflicted",
   autodiscover: true,
   onboarding: false,
