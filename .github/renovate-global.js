@@ -6,11 +6,16 @@ module.exports = {
     "schedule:automergeDaily",
     "security:openssf-scorecard"
   ],
-  platformCommit: "enabled",
+  platformCommit: true,
+  rebaseWhen: "conflicted",
   autodiscover: true,
   onboarding: false,
   requireConfig: "optional",
   labels: ["dependencies"],
+  lockFileMaintenance: {
+    enabled: true,
+    schedule: ["before 4am"],
+  },
   vulnerabilityAlerts: {
     enabled: true,
     labels: ["security"],
